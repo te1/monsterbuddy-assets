@@ -2,8 +2,10 @@
   "name": "monsterbuddy-assets",
   "private": true,
   "scripts": {
-    "squoosh": "squoosh-cli icons && squoosh-cli monsterpedia && squoosh-cli monstiepedia",
-    "all": "npm run squoosh"
+    "icons": "squoosh-cli --oxipng auto icons --output-dir icons",
+    "monsterpedia": "squoosh-cli --mozjpeg monsterpedia --output-dir monsterpedia_temp && rmdir /S /Q monsterpedia && ren monsterpedia_temp monsterpedia",
+    "monstiepedia": "squoosh-cli --mozjpeg auto monstiepedia --output-dir monstiepedia_temp rmdir /S /Q monstiepedia && ren monstiepedia_temp monstiepedia",
+    "squoosh": "npm run icons && npm run monsterpedia && npm run monstiepedia"
   },
   "devDependencies": {
     "@squoosh/cli": "^0.7.1"
