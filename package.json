@@ -1,0 +1,11 @@
+{
+  "name": "monsterbuddy-assets",
+  "private": true,
+  "scripts": {
+    "squoosh": "squoosh-cli icons && squoosh-cli monsterpedia && squoosh-cli monstiepedia",
+    "all": "npm run squoosh"
+  },
+  "devDependencies": {
+    "@squoosh/cli": "^0.7.1"
+  }
+}
