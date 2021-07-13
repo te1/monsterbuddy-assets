@@ -2,9 +2,13 @@
   "name": "monsterbuddy-assets",
   "private": true,
   "scripts": {
-    "icons": "squoosh-cli --oxipng auto icons --output-dir icons"
+    "icons": "squoosh-cli --oxipng auto icons --output-dir icons",
+    "eggs": "svgo -f eggs -o eggs",
+    "types": "svgo -f types -o types",
+    "all": "npm run icons && npm run eggs && npm run types"
   },
   "devDependencies": {
-    "@squoosh/cli": "^0.7.1"
+    "@squoosh/cli": "^0.7.1",
+    "svgo": "^2.3.1"
   }
 }
