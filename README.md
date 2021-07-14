@@ -11,7 +11,7 @@ Collection of various assets from Monster Hunter Stories 2: Wings of Ruin for us
 ### icons
 - https://monsterhunter.fandom.com/wiki/MHST2:_Monsters
 
-### eggs, types
+### eggs, types, weapons
 - https://monsterhunter.fandom.com/wiki/MHST2:_Monsties
 
 ### render

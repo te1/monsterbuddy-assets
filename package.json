@@ -6,7 +6,7 @@
     "render": "squoosh-cli --oxipng auto render --output-dir render",
     "eggs": "svgo -f eggs -o eggs",
     "types": "svgo -f types -o types",
-    "all": "npm run icons && npm run eggs && npm run types"
+    "weapons": "svgo -f weapons -o weapons"
   },
   "devDependencies": {
     "@squoosh/cli": "^0.7.1",
