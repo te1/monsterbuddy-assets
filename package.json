@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "icons": "squoosh-cli --oxipng auto icons --output-dir icons",
+    "render": "squoosh-cli --oxipng auto render --output-dir render",
     "eggs": "svgo -f eggs -o eggs",
     "types": "svgo -f types -o types",
     "all": "npm run icons && npm run eggs && npm run types"
