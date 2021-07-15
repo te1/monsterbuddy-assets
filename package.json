@@ -5,6 +5,7 @@
     "icons": "squoosh-cli --oxipng auto icons --output-dir icons",
     "render": "squoosh-cli --oxipng auto render --output-dir render",
     "monsters:crop": "node scripts/crop.js",
+    "monsters:min": "squoosh-cli --oxipng auto monsters/cleaned --output-dir monsters/cleaned",
     "eggs": "svgo -f eggs -o eggs",
     "types": "svgo -f types -o types",
     "weapons": "svgo -f weapons -o weapons"
