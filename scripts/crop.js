@@ -20,8 +20,8 @@ function getFileNames(directory) {
 }
 
 (async () => {
-  const raw = './monsters/raw/';
-  const cropped = './monsters/cropped/';
+  const raw = './monster/raw/';
+  const cropped = './monster/cropped/';
 
   for (const fileName of getFileNames(raw)) {
     await sharp(raw + fileName)
