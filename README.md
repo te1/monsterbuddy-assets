@@ -9,37 +9,36 @@ Collection of various assets from Monster Hunter Stories 2: Wings of Ruin for us
 - backgrounds removed manually with https://www.inpixio.com/remove-background and https://pixlr.com/remove-background
 - minifiy pngs with [squoosh](https://github.com/GoogleChromeLabs/squoosh)                                       
 ```
-npm run monsters:crop
-npm run monsters:min
+npm run monster:crop
+npm run monster:min
 ```
 
 - minifiy pngs with [squoosh](https://github.com/GoogleChromeLabs/squoosh)                                       
 - *Note: this takes a very long time for render images* 
 ```
-npm run icons
-npm run render
+npm run monster-icon
+npm run monster-render
 ```
 
 - minify svgs with [svgo](https://github.com/svg/svgo)                                                                 
 ```
-npm run eggs
-npm run types
-npm run weapons
+npm run egg
+npm run icon
 ```
 
 
 ## Sources
 
-### monsterpedia, monstiepedia, monsters
+### monsterpedia, monstiepedia, monster
 - In-game field guide
 
-### icons
+### monster-icon
 - https://monsterhunter.fandom.com/wiki/MHST2:_Monsters
 
-### eggs, types, weapons
+### icons
 - https://monsterhunter.fandom.com/wiki/MHST2:_Monsties
 
-### render
+### monster-render
 - https://www.monsterhunter.com/stories2/us/monster
 - https://www.monsterhunter.com/rise/us/monster
 
