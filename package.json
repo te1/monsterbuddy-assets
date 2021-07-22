@@ -7,7 +7,8 @@
     "monster:crop": "node scripts/crop.js",
     "monster:min": "squoosh-cli --oxipng auto monster/cleaned --output-dir monster/cleaned",
     "egg": "svgo -f egg -o egg",
-    "icon": "svgo -f icon -o icon"
+    "icon": "svgo -f icon -o icon",
+    "gene": "svgo -f gene -o gene"
   },
   "devDependencies": {
     "@squoosh/cli": "^0.7.2",

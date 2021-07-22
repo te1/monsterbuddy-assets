@@ -6,5 +6,9 @@ module.exports = {
       name: 'removeDimensions',
       active: true,
     },
-  ])
+    {
+      name: 'convertStyleToAttrs',
+      active: true,
+    },
+  ]),
 };

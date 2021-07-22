@@ -24,6 +24,7 @@ npm run monster-render
 ```
 npm run egg
 npm run icon
+npm run gene
 ```
 
 
