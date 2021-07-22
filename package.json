@@ -10,7 +10,7 @@
     "icon": "svgo -f icon -o icon"
   },
   "devDependencies": {
-    "@squoosh/cli": "^0.7.1",
+    "@squoosh/cli": "^0.7.2",
     "sharp": "^0.28.3",
     "svgo": "^2.3.1"
   }
