@@ -35,7 +35,7 @@ npm run icon
 ### monster-icon
 - https://monsterhunter.fandom.com/wiki/MHST2:_Monsters
 
-### icons
+### eggs, icons, genes
 - https://monsterhunter.fandom.com/wiki/MHST2:_Monsties
 
 ### monster-render
