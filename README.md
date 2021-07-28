@@ -26,6 +26,11 @@ npm run monster:webp
 npm run monster-icon:webp
 ```
 
+- resize and convert pngs to webp with [squoosh](https://github.com/GoogleChromeLabs/squoosh)
+```
+npm run monster:webp-small
+```
+
 - minify svgs with [svgo](https://github.com/svg/svgo)                                                                 
 ```
 npm run egg

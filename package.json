@@ -8,6 +8,7 @@
     "monster:crop": "node scripts/crop.js",
     "monster:min": "squoosh-cli --oxipng auto monster/cleaned --output-dir monster/cleaned",
     "monster:webp": "squoosh-cli --webp auto monster/cleaned --output-dir monster/webp",
+    "monster:webp-small": "squoosh-cli --resize {height:250} --webp auto monster/cleaned --output-dir monster/webp-small",
     "egg": "svgo -f egg -o egg",
     "icon": "svgo -f icon -o icon",
     "gene": "svgo -f gene -o gene"
