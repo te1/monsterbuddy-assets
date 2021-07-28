@@ -2,10 +2,12 @@
   "name": "monsterbuddy-assets",
   "private": true,
   "scripts": {
-    "monster-icon": "squoosh-cli --oxipng auto monster-icon --output-dir monster-icon",
+    "monster-icon": "squoosh-cli --oxipng auto monster-icon/png --output-dir monster-icon/png",
+    "monster-icon:webp": "squoosh-cli --webp auto monster-icon/png --output-dir monster-icon/webp",
     "monster-render": "squoosh-cli --oxipng auto monster-render --output-dir monster-render",
     "monster:crop": "node scripts/crop.js",
     "monster:min": "squoosh-cli --oxipng auto monster/cleaned --output-dir monster/cleaned",
+    "monster:webp": "squoosh-cli --webp auto monster/cleaned --output-dir monster/webp",
     "egg": "svgo -f egg -o egg",
     "icon": "svgo -f icon -o icon",
     "gene": "svgo -f gene -o gene"
