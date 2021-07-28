@@ -57,4 +57,4 @@ npm run gene
 
 ## Disclaimer
 
-All trademarks referenced herein are the properties of their respective owners.
+This project is not affiliated with or endorsed by Capcom or the Monster Hunter brand. All trademarks referenced herein are the properties of their respective owners.
