@@ -6,7 +6,7 @@ Collection of various assets from Monster Hunter Stories 2: Wings of Ruin for us
 ## Scripts
 
 - crop screenshots for monster images
-- backgrounds removed manually with https://www.inpixio.com/remove-background and https://pixlr.com/remove-background
+- backgrounds removed manually with https://www.inpixio.com/remove-background and https://pixlr.com/remove-background and https://www.remove.bg
 - minifiy pngs with [squoosh](https://github.com/GoogleChromeLabs/squoosh)                                       
 ```
 npm run monster:crop
