@@ -1,3 +1,3 @@
 module.exports = {
-  plugins: ['removeDimensions', 'convertStyleToAttrs'],
+  plugins: ['preset-default', 'removeDimensions', 'convertStyleToAttrs'],
 };
