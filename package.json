@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@squoosh/cli": "^0.7.2",
-    "sharp": "^0.29.3",
+    "sharp": "^0.30.0",
     "svgo": "^2.8.0"
   }
 }
