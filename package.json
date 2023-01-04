@@ -15,7 +15,7 @@
     "gene": "svgo -f gene -o gene"
   },
   "devDependencies": {
-    "@squoosh/cli": "^0.7.2",
+    "@squoosh/cli": "^0.7.3",
     "sharp": "^0.31.3",
     "svgo": "^3.0.2"
   }
