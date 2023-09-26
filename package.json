@@ -1,6 +1,9 @@
 {
   "name": "monsterbuddy-assets",
   "private": true,
+  "engines": {
+    "node": ">=14 <=16"
+  },
   "scripts": {
     "monster-icon": "squoosh-cli --oxipng auto monster-icon/png --output-dir monster-icon/png",
     "monster-icon:webp": "squoosh-cli --webp auto monster-icon/png --output-dir monster-icon/webp",
