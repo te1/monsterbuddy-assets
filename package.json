@@ -2,7 +2,7 @@
   "name": "monsterbuddy-assets",
   "private": true,
   "engines": {
-    "node": ">=14 <=16"
+    "node": ">=14 <=20"
   },
   "scripts": {
     "monster-icon": "squoosh-cli --oxipng auto monster-icon/png --output-dir monster-icon/png",
